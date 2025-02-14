@@ -2185,7 +2185,7 @@ define linkonce_odr dso_local noundef nonnull align 8 dereferenceable(8) ptr @"?
 
 50:                                               ; preds = %23
   %51 = catchswitch within none [label %52] unwind label %82
-
+/*
 52:                                               ; preds = %50
   %53 = catchpad within %51 [ptr null, i32 64, ptr null]
   %54 = getelementptr inbounds i8, ptr %11, i64 0
@@ -12488,3 +12488,4 @@ attributes #22 = { allocsize(0,1) }
 !23 = distinct !{!23, !13}
 !24 = distinct !{!24, !13}
 !25 = distinct !{!25, !13}
+*/
