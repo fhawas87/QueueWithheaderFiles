@@ -4,7 +4,7 @@ target datalayout = "e-m:w-p270:32:32-p271:32:32-p272:64:64-i64:64-i128:128-f80:
 target triple = "x86_64-pc-windows-msvc19.42.34436"
 
 %"struct.std::pair" = type { i32, i32 }
-%"class.std::basic_ostream" = type { ptr, [4 x i8], i32, %"class.std::basic_ios" }
+%"class.std::basic_ostream" = type { ptr, [4 x i8], i32, %"class.std::basic_ios" } LLVM Intermediate Representation of priority queue with heapify algorithm before adding header files etc...
 %"class.std::basic_ios" = type { %"class.std::ios_base", ptr, ptr, i8 }
 %"class.std::ios_base" = type { ptr, i64, i32, i32, i32, i64, i64, ptr, ptr, ptr }
 %"class.std::locale::id" = type { i64 }
