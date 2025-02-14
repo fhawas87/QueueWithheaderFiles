@@ -43,4 +43,4 @@ target triple = "x86_64-pc-windows-msvc19.42.34436"
 %"class.std::_Vector_const_iterator" = type { ptr }
 %"class.std::basic_ostream<char>::sentry" = type { %"class.std::basic_ostream<char>::_Sentry_base", i8 }
 %"class.std::basic_ostream<char>::_Sentry_base" = type { ptr }
-%"class.std::locale" = type { [8 x i8], ptr } ....................... and 12000 lines of IR more
+%"class.std::locale" = type { [8 x i8], ptr } ;....................... and 12000 lines of IR more
