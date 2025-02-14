@@ -145,7 +145,8 @@ int main() {
               << "\n" << "Type 'YES' if Yes, type 'NO' if Not :  \n" << "\n";
     std::cin >> Decision;
 
-    if (Decision == "YES") {PrintLLFile("IntermediateRepresentation.ll");}
+    if (Decision == "YES") {PrintLLFile("IntermediateRepresentation.ll");} // "IntermediateRepresentation.ll" is file containing LLVM IR representation of priority queue with heapify by euclidean length algorithm
+                                                                           // Before I added header files etc...
 
     else {std::cout << "Not printing IR representation.\n";}
 
