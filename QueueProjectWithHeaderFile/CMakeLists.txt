@@ -5,6 +5,7 @@ project(QueueProjectWithHeaderFile)
 
 set(CMAKE_CXX_STANDARD 17) # C++ Standard
 
+# Actually I was using some LLVM libraries such as llvm::SmallVector<> but had problems with it and forgot to delete inluding llvm libraries in CMakeLists 
 find_package (LLVM REQUIRED CONFIG)
 
 message (STATUS "Found LLVM ${LLVM_PACKAGE_VERSION}")
