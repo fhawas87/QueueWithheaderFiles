@@ -1,4 +1,4 @@
-It is a simple project to practice c++ and some new structures and algorithms such as priority queue, minheap, maxheap etc.
+It is a simple project to practice C++ and some new data structures and algorithms such as priority queue, minheap, maxheap etc.
 
 Also wanted to practice compiling multiple source files and header files using bash with LLVM.
 
