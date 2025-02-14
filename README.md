@@ -2,4 +2,6 @@ It is a simple project to practice c++ and some new structures and algorithms su
 
 Also wanted to practice compiling multiple source files and header files using bash with LLVM.
 
-It basically use heapify algorithm ( min heap ) to figure out which of given point is closest to start point and set priority in priority queue. Later added some basic program which is calculating convex polygon area of given points.
+It basically use heapify algorithm ( min heap ) to figure out which of given point is closest to start point and set priority in priority queue. Later added some basic program which is calculating convex polygon area of given points. 
+
+And at the end of the program asks if you want to see first x lines of intermediate representation of code.
