@@ -2,6 +2,6 @@ It is a simple project to practice C++ and some new data structures and algorith
 
 Also wanted to practice compiling multiple source files with llvm APIs and header files using clang.
 
-It basically use heapify algorithm ( min heap ) to figure out which of given point is closest to start point and set priority in priority queue. Later added some basic program which is calculating convex polygon area of given points. 
+It basically use heapify algorithm ( min heap ) to figure out which of given point is closest to start point and set priority in priority queue. Later added some basic function which is calculating convex polygon area of given points using schoelace formula and sorting verticies by centroid.
 
 And at the end of the program asks if you want to see first x lines of intermediate representation of code.
